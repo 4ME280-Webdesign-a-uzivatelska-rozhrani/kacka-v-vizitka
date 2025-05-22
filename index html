@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vizitka</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f3f3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .card img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-bottom: 1em;
+    }
+
+    .card h1 {
+      margin: 0.2em 0;
+      font-size: 1.5em;
+    }
+
+    .card p {
+      margin: 0.5em 0;
+      color: #555;
+    }
+
+    .card a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    .socials {
+      margin-top: 1em;
+    }
+
+    .socials a {
+      margin: 0 0.5em;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://via.placeholder.com/100" alt="Profilová fotka">
+    <h1>Jana Nováková</h1>
+    <p>Webová designérka</p>
+    <p><a href="mailto:jana@example.com">jana@example.com</a></p>
+    <p><a href="tel:+420123456789">+420 123 456 789</a></p>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/jananovakova" target="_blank">LinkedIn</a>
+      <a href="https://github.com/jananovakova" target="_blank">GitHub</a>
+    </div>
+  </div>
+</body>
+</html>
 
